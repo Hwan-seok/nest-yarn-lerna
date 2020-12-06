@@ -5,7 +5,7 @@ export class NAppController {
   constructor(private readonly appService: AppService) {}
 
   @Get()
-  getHello(): string {
+  getHellooooo(): string {
     return this.appService.getHello();
   }
 }

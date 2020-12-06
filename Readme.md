@@ -29,4 +29,7 @@
     yarn bump-minor
     yarn bump-major
 
+
+    git push (optional)
+
 ```
