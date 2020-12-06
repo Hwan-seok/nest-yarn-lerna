@@ -1,13 +1,13 @@
 {
   "name": "@test/root",
-  "version": "0.0.1",
+  "version": "1.0.3",
   "license": "MIT",
   "private": true,
   "scripts": {
     "bs": "lerna bootstrap --use-workspaces",
-    "bump-patch": "lerna version patch --amend --no-push --yes",
-    "bump-minor": "lerna version minor --amend --no-push --yes",
-    "bump-major": "lerna version major --amend --no-push --yes"
+    "bump-patch": "lerna version patch --amend --yes",
+    "bump-minor": "lerna version minor --amend --yes",
+    "bump-major": "lerna version major --amend --yes"
   },
   "devDependencies": {
     "lerna": "^3.22.1",
