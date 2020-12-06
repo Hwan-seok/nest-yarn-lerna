@@ -1,11 +1,11 @@
 {
   "name": "@test/root",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "bootstrap": "lerna bootstrap --use-workspaces"
+    "bs": "lerna bootstrap --use-workspaces"
   },
   "devDependencies": {
     "lerna": "^3.22.1"
