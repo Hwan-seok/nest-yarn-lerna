@@ -1,6 +1,7 @@
 {
   "name": "@test/core",
   "version": "0.0.1",
+  "main": "file.ts",
   "author": "",
   "private": true
 }
