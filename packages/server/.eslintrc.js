@@ -1,4 +1,4 @@
-const base = require('../../tsconfig.json');
+const base = require('../../.eslintrc.js');
 module.exports = {
   ...base,
 };

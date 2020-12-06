@@ -1,11 +1,13 @@
 {
   "name": "@test/root",
   "version": "0.0.1",
-  "main": "index.js",
   "license": "MIT",
   "private": true,
   "scripts": {
-    "bs": "lerna bootstrap --use-workspaces"
+    "bs": "lerna bootstrap --use-workspaces",
+    "bump-patch": "lerna version patch --skip-git",
+    "bump-minor": "lerna version minor --skip-git",
+    "bump-major": "lerna version major --skip-git"
   },
   "devDependencies": {
     "lerna": "^3.22.1",
