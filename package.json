@@ -5,9 +5,9 @@
   "private": true,
   "scripts": {
     "bs": "lerna bootstrap --use-workspaces",
-    "bump-patch": "lerna version patch --no-push --yes",
-    "bump-minor": "lerna version minor --no-push --yes",
-    "bump-major": "lerna version major --no-push --yes"
+    "bump-patch": "lerna version patch --amend --no-push --yes",
+    "bump-minor": "lerna version minor --amend --no-push --yes",
+    "bump-major": "lerna version major --amend --no-push --yes"
   },
   "devDependencies": {
     "lerna": "^3.22.1",
